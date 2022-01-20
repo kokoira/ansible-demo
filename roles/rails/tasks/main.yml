@@ -6,8 +6,8 @@
 - name: gem update system
   shell: bash -lc "gem update --system"
 
-- name: gem install rails -v 6.0.3
-  shell: bash -lc "gem install rails -v 6.0.3"
+- name: gem install rails -v 6.0.4.1
+  shell: bash -lc "gem install rails -v 6.0.4.1"
   
 - name: application Install 
   git:
@@ -15,13 +15,10 @@
       dest: /home/ec2-user/environment/cloud9-RaiseTech-4-5
   ignore_errors: yes
       
-- name: install bundler
-  shell: bash -lc "gem install bundler"
-
-- name: rbenv rehash
-  shell: bash -lc "rbenv rehash"
-      
 - name: bundle install
   shell: bash -lc "bundle install"
   args:
     chdir: /home/ec2-user/environment/cloud9-RaiseTech-4-5
+
+- name: rbenv rehash
+  shell: bash -lc "rbenv rehash"
