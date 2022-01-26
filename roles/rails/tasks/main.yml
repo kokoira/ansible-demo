@@ -9,7 +9,7 @@
 - name: gem install rails -v 6.0.4.1
   shell: bash -lc "gem install rails -v 6.0.4.1"
   
-- name: application Install 
+- name: install application 
   git:
       repo: https://github.com/kokoira/cloud9-RaiseTech-4-5.git
       dest: /home/ec2-user/environment/cloud9-RaiseTech-4-5
