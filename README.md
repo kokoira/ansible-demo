@@ -13,9 +13,7 @@ ansible-demoは、Ansibleを使用してAWSのEC2インスタンス上でRails�
 - AWS
   - VPC
   - EC2
-  - RDS
 # 構成図
 ![sample]()  
 # 特徴
-- RDSはMySQLを使用しています。
-- Railsはproduction環境でデプロイが可能です。
+- AWSのEC2インスタンス上でRailsの環境構築を自動で行います。  
