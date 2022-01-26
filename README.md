@@ -17,5 +17,5 @@ ansible-demoは、Ansibleを使用してAWSのEC2インスタンス上でRails�
 # 構成図
 ![sample]()  
 # 特徴
-- 対象のEC2はElastic IP、RDSはMySQLを使用しています。
+- RDSはMySQLを使用しています。
 - Railsはproduction環境でデプロイが可能です。
