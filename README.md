@@ -14,6 +14,6 @@ ansible-demoは、Ansibleを使用してAWSのEC2インスタンス上でRails�
   - VPC
   - EC2
 # 構成図
-![sample]()  
+![ansible-demo 構成図](https://user-images.githubusercontent.com/95961416/151158286-18fd3cc3-af2e-4845-8eb0-73ac9811b23d.png)
 # 特徴
 - AWSのEC2インスタンス上でRailsの環境構築を自動で行います。  
