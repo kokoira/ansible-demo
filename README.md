@@ -1,4 +1,4 @@
-# Practice_CloudFormation
+# ansible-demo
 ansible-demoは、Ansibleを使用してAWSのEC2インスタンス上でRailsの環境構築を自動で行います。  
 # 使用技術
 - Ansible
